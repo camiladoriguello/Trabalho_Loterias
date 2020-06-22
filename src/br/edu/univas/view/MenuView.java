@@ -3,7 +3,7 @@ package br.edu.univas.view;
 public class MenuView {
 
 	public void showMainMenu() {
-		System.out.println("\nOPÇÕES\n");
+		System.out.println("\nOPÇÕES DE JOGO\n");
 		System.out.println("1 - Mega-Sena");
 		System.out.println("2 - Quina");
 		System.out.println("3 - Lotofácil");
@@ -14,7 +14,7 @@ public class MenuView {
 		System.out.println("1 - 5 números que mais saíram");
 		System.out.println("2 - 5 números que menos saíram");
 		System.out.println("3 - Gerar números randômicos");
-		System.out.println("9 - Verificar meu jogo");
+		System.out.println("4 - Verificar meu jogo");
 	}
 	
 	public void showFarewell() {

@@ -1,22 +1,18 @@
 package br.edu.univas.vo;
 
-public class Jogo {
+import java.util.ArrayList;
+import java.util.Scanner;
 
-	private int numJogo;
-	private String date;
+public interface Jogo {
 	
+	public void executeSubMenu() throws Exception;
 	
-	public int getNumJogo() {
-		return numJogo;
-	}
-	public void setNumJogo(int numJogo) {
-		this.numJogo = numJogo;
-	}
-	public String getDate() {
-		return date;
-	}
-	public void setDate(String date) {
-		this.date = date;
-	}
+	public int[] getCincoMais();
+	
+	public int[] getCincoMenos();
+	
+	public ArrayList<Integer> geraRandomicos();
+	
+	public void verificaJogo(Scanner scanner);
 
 }
